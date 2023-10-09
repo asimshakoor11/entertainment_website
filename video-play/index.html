@@ -1,0 +1,427 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Playing-Video</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- //font awesome -->
+    <script src="https://kit.fontawesome.com/bfd9a60e30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <div class="logo">
+                    <img src="../asserts/navimages/logo.png" alt="" height="40px">
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="tabs">
+                    <a href="../index.html">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                    <i class="fa-solid fa-user-group"></i>
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="options">
+                    <div class="icons">
+                        <div>
+                            <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="../asserts/navimages/profile.png" alt="" width="42" height="42">
+                        <p>Marvin</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <ul class="notifications"></ul>
+
+        <div class="main-container">
+
+            <!-- aside  -->
+            <div class="aside">
+                <nav class="navigation">
+                    <ul class="nav">
+                        <li>
+                            <a href="#" class="active" id="navhome">
+                                <i class="fa fa-home"></i>News Feed
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-image"></i>Album
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-bookmark"></i>Saved Post
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-signs-post"></i>Popular Post
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-arrow-rotate-left"></i>Memories
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-user-group"></i>
+                                My Groups
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-flag"></i>My Pages
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-shop"></i>Market
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-bolt-lightning"></i>
+                                Explore
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-calendar-days"></i>Events
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="active">
+                                <i class="fa-solid fa-gamepad"></i>Games
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- aside end  -->
+
+            <div class="main-content">
+
+
+
+                <div class="video-play">
+                    <div class="bg-image">
+                        <video src="" alt="" controls>
+                    </div>
+
+                    <div class="video-info">
+                        <h4>Birds Of Prey and the Fantabulous Emancipation of One Harley Quinn (2020)</h4>
+                        <p>36 views. 28 July 2023</p>
+                        <div class="video-profile">
+                            <div class="video-profile-L">
+                                <div>
+                                    <img src="../asserts/main/profilevideo.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <h6>Danish Rehman</h6>
+                                    <p>12.5k Subscribers</p>
+                                </div>
+                                <a href="../mychannelv2/index.html">Visit Profile</a>
+                            </div>
+
+                            <div class="video-profile-R">
+                                <div>
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    0
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-thumbs-down"></i>
+                                    0
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-share-from-square"></i>Share
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-code"></i>Embed
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-desc">
+                            <p>En este video estaremos tratando el tema de la segunda venida de Cristo, respondiendo a
+                                la pregunta ¿es verdad que regresará? Veremos si todo este tiempo nos hemos creído una
+                                ilusión o si realmente vendrá. S. Mateo 24:36: Pero del día y la hora nadie sabe, ni aun
+                                los ángeles de los cielos, sino solo mi Padre.</p>
+                            <a href="">Show more</a>
+                        </div>
+
+                        <div class="comments">
+                            <sapn>0 Comments</sapn>
+                            <span>
+                                <i class="fa-solid fa-sort"></i>Sort By</span>
+                        </div>
+
+                        <div class="add-com">
+                            <img src="../asserts/main/profielcomment.png" alt="" width="30px" height="30px">
+                            <p>
+                                <i class="fa-regular fa-face-smile"></i>Add comment
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="suggested">
+                    <div class="container">
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video1.png" alt="">
+                            </a>
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video1.png" alt="">
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video2.png" alt="">
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video3.png" alt="">
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video4.png" alt="">
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video1.png" alt="">
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video1.png" alt="">
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video1.png" alt="">
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-box">
+                            <a href="">
+                                <img src="../asserts/main/video1.png" alt="">
+                            </a>
+                            <div class="video-info">
+                                <div class="info">
+                                    <h4>Mr Best Just dontes a huge amount</h4>
+                                    <div>
+                                        <p>Mr Beast</p>
+                                        <img src="../asserts/main/green.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4.2M Views .</p>
+                                        <p>6 Years ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main end  -->
+
+            <div class="aside-right">
+                <div class="top">
+                    <div>
+                        <i class="fa-solid fa-message"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-user-plus"></i>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div>
+                        <img src="../asserts/rightside/Image.png" alt="" height="45.33px">
+                    </div>
+
+                    <div>
+                        <img src="../asserts/rightside/Image.png" alt="" height="45.33px">
+                    </div>
+
+                    <div>
+                        <img src="../asserts/rightside/Image.png" alt="" height="45.33px">
+                    </div>
+
+                    <div>
+                        <img src="../asserts/rightside/Image.png" alt="" height="45.33px">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
